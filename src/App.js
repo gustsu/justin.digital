@@ -1,7 +1,7 @@
-import HelloWorld from "./components/HelloWorld";
+import NavBar from "./components/NavBar";
 
 function App() {
-  return <HelloWorld />
+  return <NavBar />
 }
 
 export default App;
