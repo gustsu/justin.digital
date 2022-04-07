@@ -1,0 +1,16 @@
+.myNavBar.navbar-light {
+    .navbar-brand  {
+        color: #fff;
+    }
+
+
+    .navbar-collapse  {
+        justify-content: right;
+
+        .navbar-nav {
+            .nav-link {
+                color: #fff;
+            }
+        }
+    }
+}
