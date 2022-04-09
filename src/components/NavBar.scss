@@ -1,4 +1,11 @@
 .myNavBar.navbar-light {
+    padding: 22px 0;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    background: rgba(255,255,255,.1);
+    z-index: 100;
+
     .navbar-brand  {
         color: #fff;
     }
@@ -10,6 +17,20 @@
         .navbar-nav {
             .nav-link {
                 color: #fff;
+                font-size: 13px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                padding-right: 20px;
+                padding-left: 20px;
+
+                &:last-of-type {
+                    border: 2px solid #fff;
+                    padding-left: 14px;
+                    padding-right: 14px;
+                    margin-left: 6px;
+                    position: relative;
+                    transform: translateY(-2px);
+                }
             }
         }
     }
