@@ -5,7 +5,7 @@ import './NavBar.scss';
 
 export default function NavBar() {
   return (
-    <Navbar className="myNavBar" expand="lg">
+    <Navbar className="my-nav-bar" expand="lg">
         <Container>
             <Navbar.Brand href="#home">justin.digital</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -2,8 +2,30 @@ body {
     background: linear-gradient(45deg, #1A1A40, #110038, #200a2e, #36001f);
     color: #fff;
     font-family: 'Trispace', sans-serif;
+    -ms-overflow-style: auto;
+    scrollbar-color: #1d0830 #f100c3;
+    scrollbar-width: thin;
 }
 
 * {
     color: #fff;
+}
+
+.pos-rel {
+    position: relative;
+    z-index: 2;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #f100c3;
+}
+body::-webkit-scrollbar-track {
+    background-color: #1d0830;
+}
+body::-webkit-scrollbar-corner {
+    background-color: #1d0830;
+}
+body::-webkit-scrollbar {
+    width: 1rem;
+    height: 0.5rem;
 }

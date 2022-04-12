@@ -1,17 +1,17 @@
 import Container from 'react-bootstrap/Container';
-import linkedinIcon from '../icons/icon-linkedin.svg';
-import githubIcon from '../icons/icon-github.svg';
-import dribbbleIcon from '../icons/icon-dribbble.svg';
-import mailIcon from '../icons/icon-mail.svg';
+import linkedinIcon from '../assets/icon-linkedin.svg';
+import githubIcon from '../assets/icon-github.svg';
+import dribbbleIcon from '../assets/icon-dribbble.svg';
+import mailIcon from '../assets/icon-mail.svg';
 import './HeroSection.scss';
 
 export default function HeroSection() {
   return (
-    <div className='HeroSection'>
+    <div className='hero-section pos-rel'>
         <Container>
             <div className="inner-content">
-              <h1>Justin Tew</h1>
-              <h2>Frontend Developer</h2>
+              <h1>justin tew</h1>
+              <h2>Frontend Engineer</h2>
               <div className='icon-section'>
                 <img src={linkedinIcon} className="linkedin-logo" alt="LinkedIn Social Logo" />
                 <img src={githubIcon} className="linkedin-logo" alt="LinkedIn Social Logo" />

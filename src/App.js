@@ -1,6 +1,7 @@
-import NavBar from "./components/NavBar";
 import BackgroundScene from "./components/BackgroundScene";
+import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
+import AboutSection from "./components/AboutSection";
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/scss/bootstrap.scss';
@@ -13,8 +14,7 @@ function App() {
       <BackgroundScene />
       <NavBar />
       <HeroSection />
-      <HeroSection />
-      <HeroSection />
+      <AboutSection />
     </>
   )
 

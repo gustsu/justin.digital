@@ -1,13 +1,19 @@
-.myNavBar.navbar-light {
+.my-nav-bar.navbar-light {
     padding: 22px 0;
     position: fixed;
     left: 0px;
     width: 100%;
-    background: rgba(255,255,255,.1);
+    // background: rgba(255,255,255,.1);
+    background: #1d0830;
     z-index: 100;
 
     .navbar-brand  {
         color: #fff;
+        font-weight: 300;
+
+        &:hover {
+            color: #fff;
+        }
     }
 
 
@@ -15,21 +21,30 @@
         justify-content: right;
 
         .navbar-nav {
+            
+
             .nav-link {
-                color: #fff;
+                color: #cfbcd3;
                 font-size: 13px;
                 text-transform: uppercase;
                 letter-spacing: 2px;
                 padding-right: 20px;
                 padding-left: 20px;
 
+                &:hover {
+                    color: #fff;
+                }
+
                 &:last-of-type {
-                    border: 2px solid #fff;
+                    border: 2px solid #f100c3;
+                    color: #f100c3;
+                    border-radius: 6px;
                     padding-left: 14px;
                     padding-right: 14px;
-                    margin-left: 6px;
+                    margin-left: 10px;
                     position: relative;
                     transform: translateY(-2px);
+                    font-weight: 600;
                 }
             }
         }
