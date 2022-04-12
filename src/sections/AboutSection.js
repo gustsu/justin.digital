@@ -1,9 +1,9 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Subheader from  "./blocks/Subheader";
+import Subheader from  "../components/Subheader";
 import './AboutSection.scss';
-import aboutImage from '../assets/me.png';
+import AboutImage from '../assets/me.png';
 
 export default function AboutSection() {
   return (
@@ -18,7 +18,7 @@ export default function AboutSection() {
               </Col>
               <Col xs={12} md={6}>
                 <div className="image-container">
-                  <img src={aboutImage} className="about-image" alt="Justin Tew" />
+                  <img src={AboutImage} className="about-image" alt="Justin Tew" />
                 </div>
               </Col>
             </Row>

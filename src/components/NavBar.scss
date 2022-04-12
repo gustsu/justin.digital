@@ -45,6 +45,14 @@
                     position: relative;
                     transform: translateY(-2px);
                     font-weight: 600;
+                    transition: all .25s;
+
+                    &:hover {
+                        transform: scale(1.05) translateY(-2px);
+                        background: linear-gradient(45deg, #F900BF, #9900F0, #4700D8);
+                        color: #fff;
+                        border-color: #fff;
+                    }
                 }
             }
         }
