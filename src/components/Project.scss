@@ -1,3 +1,42 @@
 .project {
-    padding: 15px 0;
+    padding: 25px 0;
+    margin: 40px 0 100px;
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .project-btn {
+        background: linear-gradient(45deg, #c33ebd, #743aae);
+        display: block;
+        width: 160px;
+        height: 160px;
+        border-radius: 100px;
+        padding: 50px;
+        margin: 80px auto 0;
+        transition: all .3s;
+
+        &:hover {
+            filter: hue-rotate(-35deg);
+            transform: translateX(10px);
+        }
+    }
+
+    .lower-row {
+        justify-content: end;
+        align-items: end;
+        text-align: left;
+
+        .lower-row-container {
+            background: #fff;
+            margin: -120px 0px 0px;
+            padding: 40px;
+            border-radius: 10px;
+
+            * {
+                color: #323232;
+            }
+        }
+    }
 }

@@ -1,0 +1,18 @@
+
+.icon-section {
+    margin-top: 25px;
+
+    img {
+        opacity: .6;
+        width: 38px;
+        cursor: pointer;
+        margin-right: 10px;
+        transition: all .25s;
+
+        &:hover {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+    }
+
+}

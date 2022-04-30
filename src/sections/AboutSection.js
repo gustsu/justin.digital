@@ -7,7 +7,7 @@ import AboutImage from '../assets/me.png';
 
 export default function AboutSection() {
   return (
-    <div className='about-section pos-rel'>
+    <div className='about-section pos-rel' id="about-section">
         <Container>
             <Subheader text="About Me"/>
             <Row>
