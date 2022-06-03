@@ -11,7 +11,7 @@ export default function ContactSection() {
   return (
     <div className='contact-section pos-rel' id="contact-section">
         <Container>
-            <Subheader text="Contact Me"/>
+            <Subheader text="Contact"/>
             <Row>
                 <Col xs={12} md={4}>
                     <p>Connect With Me</p>

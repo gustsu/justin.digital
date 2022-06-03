@@ -1,22 +1,31 @@
 .hero-section {
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
 
     .inner-content {
-        position: absolute;
-        top: 35vh;
+        padding-top: 150px;
+
+        @media screen and (min-width: 992px) {
+            position: absolute;
+            top: 35vh;
+            padding-top: 0px;
+        }
     }
 
     h1 {
-        font-size: 110px;
+        font-size: 80px;
         font-weight: 400;
         line-height: 1.1;
         margin-bottom: 0px;
+
+        @media screen and (min-width: 992px) {
+            font-size: 110px;
+        }
     }
 
     h2 {
         font-weight: 600 !important;
-        font-size: 34px;
+        font-size: 28px;
         color: #F900BF;
         background: linear-gradient(45deg, #F900BF, #9900F0, #4700D8);
         -webkit-background-clip: text;
@@ -25,6 +34,10 @@
         letter-spacing: 4px;
         margin-top: 55px;
         position: relative;
+
+        @media screen and (min-width: 992px) {
+            font-size: 34px;
+        }
 
         &:before {
             content: '';

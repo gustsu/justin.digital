@@ -9,9 +9,9 @@ export default function ProjectSection() {
         <Container>
             <Subheader text="Projects"/>
             <Project />
+            <Project reverse />
             <Project />
-            <Project />
-            <Project />
+            <Project reverse />
         </Container>
     </div>
   )

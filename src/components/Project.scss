@@ -1,6 +1,11 @@
 .project {
     padding: 25px 0;
     margin: 40px 0 100px;
+    position: relative;
+
+    @media screen and (min-width: 992px) {
+        position: static; 
+    }
 
     img {
         width: 100%;
@@ -10,12 +15,29 @@
     .project-btn {
         background: linear-gradient(45deg, #c33ebd, #743aae);
         display: block;
-        width: 160px;
-        height: 160px;
         border-radius: 100px;
-        padding: 50px;
-        margin: 80px auto 0;
         transition: all .3s;
+
+        width: 80px;
+        height: 80px;
+        padding: 17px;
+        position: absolute;
+        right: 0px;
+        bottom: -20px;
+        left: 0px;
+        margin: 0 auto;
+
+        @media screen and (min-width: 992px) {
+            width: 160px;
+            height: 160px;
+            padding: 50px;
+            margin: 20px auto 0;
+            position: static;
+        }
+
+        @media screen and (min-width: 1200px) {
+            margin: 100px auto 0;
+        }
 
         &:hover {
             filter: hue-rotate(-35deg);
@@ -30,12 +52,26 @@
 
         .lower-row-container {
             background: #fff;
-            margin: -120px 0px 0px;
+            margin: -60px 0px 0px;
             padding: 40px;
             border-radius: 10px;
 
+            @media screen and (min-width: 768px) {
+                margin: -120px 0px 0px;
+            }
+
             * {
                 color: #323232;
+            }
+        }
+    }
+
+    &.reverse {
+        .row {
+            flex-direction: row-reverse;
+
+            &.lower-row {
+                justify-content: start;
             }
         }
     }
