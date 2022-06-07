@@ -1,14 +1,14 @@
 import './ContactForm.scss';
 export default function ContactForm() {
     return (
-        <div className='contact-form'>
+        <div className="contact-form">
             <form>
                 <input placeholder="Your Name" type="text" />
-                <input placeholder="Your Phone Number" type="text" />
-                <input placeholder="Your Message" type="text" />
+                <input placeholder="Email" type="text" />
+                <textarea  placeholder="Message"></textarea>
 
-                <div class="btn-container">
-                    <button type="submit">Just Do It</button>
+                <div className="btn-container">
+                    <button type="submit">Send It Bro</button>
                 </div>
 
             </form>

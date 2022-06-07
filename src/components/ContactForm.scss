@@ -2,7 +2,7 @@
     margin-top: 30px;
     margin-bottom: 120px;
 
-    input {
+    input, select, textarea {
         width: 100%;
         display: block;
         margin: 0 0 30px;
@@ -14,8 +14,12 @@
         box-shadow: none;
     }
 
-    input::placeholder {
+    input::placeholder, textarea::placeholder {
         color: #fff;
+    }
+
+    textarea {
+        min-height: 150px;
     }
 
     .btn-container {

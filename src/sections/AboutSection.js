@@ -12,9 +12,9 @@ export default function AboutSection() {
             <Subheader text="About Me"/>
             <Row>
               <Col xs={12} md={6}>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et mattis urna, a egestas enim.  </p>
-                <p>Fusce pretium nibh at neque malesuada congue. Integer ac massa commodo, pretium massa eget, feugiat arcu. Suspendisse vel elit volutpat sem fermentum aliquet. Phasellus quis nibh ut erat venenatis imperdiet ut at orci.</p>
-                <p>Donec sit amet nisl ullamcorper, imperdiet turpis tincidunt, faucibus ipsum. Nam quis molestie leo, ac fermentum urna. Donec lobortis sit amet libero ac rhoncus. </p>
+                <p>Justin is a Frontend Engineer, Founder, and Pizza Connoisseur from Spokane, Washington.</p>
+                <p>He has been writting code for over 10 years and has been a professional Developer for the last 6 years.</p>
+                <p>When he isn't behind the keyboard you can find him working on his reef tank, flying drones, cooking pizza and playing video games.</p>
               </Col>
               <Col xs={12} md={6}>
                 <div className="image-container">
