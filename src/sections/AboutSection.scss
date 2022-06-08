@@ -32,8 +32,7 @@
             &:hover {
                 &:after {
                     opacity: 0;
-                    left: -20%;
-                    top: -20%;
+                    transform: scale(1.2);
                 }
             }
         }

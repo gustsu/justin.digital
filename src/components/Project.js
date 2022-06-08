@@ -4,9 +4,8 @@ import arrowIcon from '../assets/icon-arrow.svg';
 import './Project.scss';
 
 export default function Project(props) {
-  const reverse = props.reverse;
   return (
-      <div className={`project ${reverse ? "reverse" : ""}`}>
+      <div className={`project ${props.reverse ? "reverse" : ""}`}>
         <Row>
           <Col xs={12} lg={9}>
             <img src="https://via.placeholder.com/2000x1000.png" alt="test"/>
@@ -20,8 +19,8 @@ export default function Project(props) {
         <Row className="lower-row">
           <Col xs={12} lg={6}>
             <div className="lower-row-container">
-              <h1>test</h1>
-              <p>lorem</p>
+              <h1>Spoon & Leaf</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies magna eget dolor tincidunt, at consectetur neque eleifend. Nullam eleifend convallis felis id maximus. </p>
             </div>
           </Col>
         </Row>
