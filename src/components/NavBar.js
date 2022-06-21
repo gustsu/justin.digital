@@ -1,6 +1,7 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
+import Resume from '../assets/justintew-resume.pdf';
 import './NavBar.scss';
 
 export default function NavBar() {
@@ -14,7 +15,7 @@ export default function NavBar() {
                     <Nav.Link href="#about-section">About</Nav.Link>
                     <Nav.Link href="#project-section">Projects</Nav.Link>
                     <Nav.Link href="#contact-section">Contact</Nav.Link>
-                    <Nav.Link href="#link">Resume</Nav.Link>
+                    <Nav.Link href={Resume} target="_blank" rel="noreferrer">Resume</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>
