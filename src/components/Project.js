@@ -11,7 +11,7 @@ export default function Project(props) {
             <img src={props.image} alt="test"/>
           </Col>
           <Col xs={12} lg={3}>
-            <a href={props.link} className="project-btn">
+            <a href={props.link} target="_blank" rel="noreferrer" className="project-btn">
               <img src={arrowIcon} className="project-btn-arrow" alt="arrow"/>
             </a>
           </Col>

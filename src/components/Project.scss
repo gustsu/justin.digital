@@ -51,17 +51,23 @@
         text-align: left;
 
         .lower-row-container {
-            background: #fff;
+            // background: #fff;
+            background: linear-gradient(45deg, #1A1A40, #110038, #200a2e);
             margin: -60px 0px 0px;
             padding: 40px;
-            border-radius: 10px;
+            border-radius: 0 0 10px 10px;
 
             @media screen and (min-width: 768px) {
                 margin: -120px 0px 0px;
             }
 
+            @media screen and (min-width: 992px) {
+                border: 2px solid #aa3db8;
+                border-radius: 10px;
+            }
+
             * {
-                color: #323232;
+                color: #fff;
             }
         }
     }
