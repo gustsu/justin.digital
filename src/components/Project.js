@@ -19,7 +19,7 @@ export default function Project(props) {
         <Row className="lower-row">
           <Col xs={12} lg={6}>
             <div className="lower-row-container">
-              <h1>{props.name}</h1>
+              <h3>{props.name}</h3>
               <p>{props.desc}</p>
             </div>
           </Col>

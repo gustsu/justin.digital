@@ -12,6 +12,16 @@
         border-radius: 10px;
     }
 
+    h3 {
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 4px;
+    }
+
+    p {
+        margin-bottom: 0px;
+    }
+
     .project-btn {
         background: linear-gradient(45deg, #c33ebd, #743aae);
         display: block;
