@@ -8,7 +8,7 @@ export default function ContactForm() {
                 <textarea required name="Message" placeholder="Message"></textarea>
 
                 <div className="btn-container">
-                    <button type="submit">Send It Bro</button>
+                    <button type="submit">Send</button>
                 </div>
 
             </form>
